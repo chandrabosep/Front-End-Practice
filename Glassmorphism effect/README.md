@@ -1,6 +1,7 @@
-### Glassmorphism Effect
+<h1 align=center>Glassmorphism Effect 🔍<h/1>
+<hr>
 
-![image](https://user-images.githubusercontent.com/70272542/142721204-cc94acd1-4e15-4849-9916-28ca32c70662.png)
+![image](https://user-images.githubusercontent.com/70272542/142721330-4072430b-68c1-4e18-989a-e1ce17a5a5ba.png)
 
 
 
