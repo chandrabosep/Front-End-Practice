@@ -1,0 +1,59 @@
+html{
+    background-color: #FDF5DF;
+}
+#main1{
+    margin-top: 7rem;
+    font-family: 'Constantia', serif;
+    color: #5EBEC4;
+    text-align: center;
+    justify-content: center;
+    width: 10erm;
+    height: 1rem;
+    animation: m1_animation;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+#main2{
+    font-family: 'Bungee', cursive;
+    text-align:center;
+    color:#F92C85;
+    animation: m2_animation;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+#icons{
+    margin-top: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    color: #F92C85;
+    font-family: Consolas;
+    flex-direction: column;
+    justify-content: center;
+    width: 2rem;
+    height: 10rem;  
+}
+.fa-instagram,.fa-twitter,.fa-envelope{
+    margin: 5px;
+    color: #F92C85;
+}
+#about{
+    font-family: 'Patua One', cursive;
+    color: #5EBEC4;
+    padding:0 1em;
+    max-width: 52rem;
+    margin: 0 auto;
+    margin-top: 50px;
+    place-items: center;
+    max-height: 6rem;
+    backdrop-filter: blur(2px);
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+@keyframes m1_animation{
+    50%{transform: translatex(-40px);}
+}
+@keyframes m2_animation{
+    50%{transform: translateX(40px);}
+}
